@@ -99,7 +99,7 @@ async function getEpisodes(id) {
   $('section').css('display', '').
   $('#episodes-list').empty();
 
-  const eps = await axios.get(`http://api.tvmaze.com/shows/${id}/episodes`)
+  const eps = await axios.get(`https://api.tvmaze.com/shows/${id}/episodes`)
   console.log(eps.data);
 
   eps.data.forEach(element => {
