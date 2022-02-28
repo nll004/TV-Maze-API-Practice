@@ -9,3 +9,6 @@ I had to create and complete functions to access information from the API and re
 ## To do
 The episodes are only for the first result. I need to either append the epsodes directly below the result
 or add a click event to titles in order to get the episodes once clicked.
+
+## Try it
+https://nll004.github.io/TV-Maze-API-Practice/
